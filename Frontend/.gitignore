@@ -1,13 +1,13 @@
-# 忽略当前目录下所有内容
+# 忽略所有内容
 /*
 
-# 保留 .gitignore 文件（否则它也会被忽略）
+# 保留 .gitignore 自身
 !.gitignore
 
-# 重新包含 Material 文件夹及其所有内容
+# 如果文件夹在 Assets 目录下，规则应改为：
+!Assets/
+Assets/*
 !Assets/Material/
 !Assets/Material/**
-
-# 重新包含 Scripts 文件夹及其所有内容
-!Scripts/
-!Scripts/**
+!Assets/Scripts/
+!Assets/Scripts/**
