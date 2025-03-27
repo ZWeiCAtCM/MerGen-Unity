@@ -1,0 +1,13 @@
+# 忽略当前目录下所有内容
+/*
+
+# 保留 .gitignore 文件（否则它也会被忽略）
+!.gitignore
+
+# 重新包含 Material 文件夹及其所有内容
+!Assets/Material/
+!Assets/Material/**
+
+# 重新包含 Scripts 文件夹及其所有内容
+!Scripts/
+!Scripts/**
